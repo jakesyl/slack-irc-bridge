@@ -1,14 +1,13 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
+	"github.com/voldyman/slackbot"
+	"github.com/ziozzang/slack-irc-bridge/ircbot"
+	"io/ioutil"
 	"log"
 	"os"
-	"io/ioutil"
-	"encoding/json"
-
-	"./ircbot"
-	"github.com/voldyman/slackbot"
 )
 
 type Bridges struct {
